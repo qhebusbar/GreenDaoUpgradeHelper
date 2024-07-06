@@ -1,6 +1,6 @@
 package com.github.yuweiguocn.demo.greendao.about;
 
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 import android.os.Bundle;
 
 import com.github.yuweiguocn.demo.greendao.R;

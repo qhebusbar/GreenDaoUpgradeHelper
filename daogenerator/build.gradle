@@ -1,5 +1,5 @@
 apply plugin: 'java'
 
 dependencies {
-    compile 'org.greenrobot:greendao-generator:3.2.0'
+    compileOnly 'org.greenrobot:greendao-generator:3.2.0'
 }

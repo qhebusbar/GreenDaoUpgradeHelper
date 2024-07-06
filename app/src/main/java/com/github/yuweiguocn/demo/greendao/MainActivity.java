@@ -2,11 +2,13 @@ package com.github.yuweiguocn.demo.greendao;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
+
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+
+import androidx.appcompat.widget.Toolbar;
 
 import com.github.yuweiguocn.demo.greendao.about.AboutActivity;
 import com.github.yuweiguocn.demo.greendao.base.BaseActivity;

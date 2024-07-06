@@ -1,18 +1,23 @@
 package com.github.yuweiguocn.greendao;
 
 
+
+
+
+
 import org.greenrobot.greendao.generator.DaoGenerator;
 import org.greenrobot.greendao.generator.Entity;
 import org.greenrobot.greendao.generator.Schema;
 
+
 public class MyDaoGenerator {
-    public static void main(String[] args) throws Exception {
-        Schema schema = new Schema(11, "com.github.yuweiguocn.demo.greendao.db");
-        addTest(schema);
-        addTest2(schema);
-        addTest3(schema);
-        new DaoGenerator().generateAll(schema, "../GreenDaoUpgradeHelper/app/src/main/java-gen");
-    }
+//    public static  void main(String[] args) throws Exception {
+//        Schema schema = new Schema(11, "com.github.yuweiguocn.demo.greendao.db");
+//        addTest(schema);
+//        addTest2(schema);
+//        addTest3(schema);
+//        new DaoGenerator().generateAll(schema, "../GreenDaoUpgradeHelper/app/src/main/java-gen");
+//    }
 
 
     private static void addTest(Schema schema) {
