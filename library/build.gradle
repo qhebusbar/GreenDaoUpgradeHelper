@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
+//apply plugin: 'com.novoda.bintray-release'
 android {
     compileSdkVersion 33
 
@@ -22,16 +22,16 @@ android {
 }
 
 dependencies {
-    compileOnly 'org.greenrobot:greendao:3.2.0'
+    compileOnly 'org.greenrobot:greendao:3.3.0'
     compileOnly 'androidx.annotation:annotation:1.0.0'
 }
 
 
-publish {
-    userOrg = 'yuweiguocn'//用户名
-    groupId = 'io.github.yuweiguocn'//包名
-    artifactId = 'GreenDaoUpgradeHelper'//类库名
-    publishVersion = '2.2.1'//版本号
-    desc = 'To solve database upgrade of greenDao and just need one line code.'//描述
-    website = 'https://github.com/yuweiguocn/GreenDaoUpgradeHelper'//对应的github网址
-}
+//publish {
+//    userOrg = 'yuweiguocn'//用户名
+//    groupId = 'io.github.yuweiguocn'//包名
+//    artifactId = 'GreenDaoUpgradeHelper'//类库名
+//    publishVersion = '2.2.1'//版本号
+//    desc = 'To solve database upgrade of greenDao and just need one line code.'//描述
+//    website = 'https://github.com/yuweiguocn/GreenDaoUpgradeHelper'//对应的github网址
+//}
